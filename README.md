@@ -4,10 +4,8 @@
 
 ## 使用方法
 
-1. 复制[./lib/index.js](./lib/index.js)
+1. 将这个链接添加到书签栏 `javascript:$('<script src="https://rawgit.com/rccoder/HIT-PingJiao/master/lib/index.js"></script>').appendTo('head')`
 
-2. 打开评教页面
+2. 打开评教页面，点击刚才的书签
 
-3. 打开`console`
-
-4. 粘贴，回车
+注意: 某些安全策略较强的浏览器比如360安全浏览器,IE11以及最新测试版Chrome和Firefox不支持此方法
