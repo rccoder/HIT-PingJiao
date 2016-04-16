@@ -1,0 +1,37 @@
+{
+  "name": "HIT PingJiao",
+  "version": "0.0.1",
+  "manifest_version": 2,
+
+  // 简单描述
+  "description": "哈工大极速评教专用插件",
+  "icons": {
+    "16": "image/icon.png",
+    "48": "image/icon.png"
+  },
+  
+
+  // 浏览器小图表部分
+  "browser_action": {
+    "default_title": "反劫持",
+    "default_icon": "image/icon.png",
+    "default_popup": "html/test.html"
+  },
+
+  // 引入一个脚本
+  "content_scripts": [
+    {
+      "js": ["lib/jquery.js", "lib/index.js"],
+      // 在什么情况下使用该脚本
+      "matches": [
+        "http://jwts.hit.edu.cn/*"
+      ],
+      
+      "run_at": "document_end"
+    }
+  ],
+  // 应用协议页面
+  "permissions": [
+    "http://*/*"
+  ]
+}
