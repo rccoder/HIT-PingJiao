@@ -4,7 +4,7 @@
 
 ## 使用方法
 
-1. 将这个链接添加到书签栏 `javascript:$('<script src="https://rawgit.com/rccoder/HIT-PingJiao/master/lib/index.js"></script>').appendTo('head')`
+1. 将这个链接添加到书签栏 `javascript:$('<script src="https://cdn.jsdelivr.net/gh/rccoder/HIT-PingJiao@master/lib/index.js"></script>').appendTo('head')`
 
 2. 打开评教页面，点击刚才的书签
 
